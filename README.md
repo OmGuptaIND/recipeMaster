@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://aries101design.github.io/recipe-blog/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/aries101design/recipe-blog">
       Solution
     </a>
     <span> | </span>
@@ -42,7 +42,7 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
-  - Link is 
+  - Link is https://aries101design.github.io/recipe-blog/
 - What was your experience?
   - Easy took me 3-4 hrs to code ... Fun doing it 
 - What have you learned/improved?
@@ -70,8 +70,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
+To clone and run this application, you'll need [Git](https://git-scm.com).
 ```bash
 # Clone this repository
 $ git clone https://github.com/aries101design/recipe-blog
