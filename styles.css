@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px orangered;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: orangered;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+body{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:5% 10%;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head{
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.head__text{
+    display: flex;
+    margin-bottom: 3%;
+}
+.dots{
+    margin: 0%;
+    padding: 0;
+    height: 100%;
+    margin-top: 5px;
+}
+.head__text > p{
+    width: 60%;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 1%;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;
+}
+.img{
+    width: 100%;
+    object-fit: contain;
+}
+.middle{
+    display: flex;
+    width: 100%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: 5%;
+}
+.middle__title{
+    font-size: 24px;
+    font-weight: normal;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2%;
+}
+.type{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.checkbox{
+    display: flex;
+    margin-right: 2%;
+    transform: scale(1.1);
+    transform: translateY(20%);
+}
+.recipe__text{
+    font-weight: 300;
+    font-size: 16px;
+}
+.check{
+    display: flex;
+    margin-bottom: 2%;
+    width: 90%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 80%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.29);
+    border-radius: 20px;
+    margin-top: 1%;
+}
+.card{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    padding: 7%;
+    position: sticky;
+    top: 0%;
+}
+.options{
+    display: flex;
+    margin-bottom: 20%;
+    cursor: default;
+}
+.fork{
+    width: 20%;
+    object-fit: contain;
+    margin-right: 5%;
+}
+.options__head{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: bold;
+}
+.name{
+    color:#BDBDBD;
+}
+.data{
+    font-size: 14px;
+    font-weight: normal;
+}
+.steps{
+    display: flex;
+    flex-direction: column;
+}
+.steps__head{
+    margin: 3% 0% 3% 0%;
+}
+.tips{
+    display: flex;
+    margin-bottom: 3%;
+    cursor: default;
+}
+.no{
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    padding:5px 10px 10px 10px;
+    height:50px;
+    width: 33px;
+}
+.txt{
+    /* transform: translate(2%,30%); */
+    font-size: 16px;
+    font-weight: 400;
+    width: 70%;
+    margin-left: 5%;
+}
+.src{
+    margin-top: 5%;
+    color: rgba(189, 189, 189, 1);
+    margin-bottom: 5%;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:1007px){
+    .head__text > p{
+        width: 80%;
+        font-size: 14px;
+        font-weight: 500;
+        font-style: italic;
+        margin-left: 1%;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-right: 3%;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        height: 80%;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.29);
+        border-radius: 20px;
+        margin-top: 1%;
+    }
+}
+@media screen and (max-width:733px){
+    .head__text > p{
+        width: 90%;
+        font-size: 14px;
+        font-weight: 500;
+        font-style: italic;
+        margin-left: 1%;
+    }
+    .head{
+        font-size: 2.1rem;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        margin-bottom: 1%;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-right: 1%;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        width: 28%;
+        height: 80%;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.29);
+        border-radius: 20px;
+        margin-top: 1%;
+    }
+    .recipe__text{
+        font-weight: 300;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:670px){
+    .right{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 80%;
+        box-shadow: 0px 0px 0px rgba(0,0,0,0.29);
+        border-radius: 20px;
+        margin-top: 1%;
+    }
+    .main{
+        padding:5% 2%;
+    }
+    .middle{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 5%;
+    }
+    .txt{
+        width: 100%;
+    }
+    .steps{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .txt{
+        margin-bottom: 7%;
+        font-size: 14px !important;
+    }
+    .card{
+        width: 100%;
+        border-radius: 20px;
+        height: 100%;
+        padding: 1%;
+    }
+    .options{
+        display: flex;
+        margin-bottom: 5%;
+        cursor: default;
+    }
+    .time{
+        display: flex;
+    }
+    .fork{
+        width: 15%;
+        object-fit: contain;
+        margin-right: 5%;
+    }
+    .options__head{
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+        font-weight: bold;
+    }
+    .name{
+        color:#BDBDBD;
+    }
+    .data{
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .head{
+        font-size: 24px;
+    }
+    .head__text > p{
+        width: 94%;
+        font-size: 12px;
+        font-weight: 500;
+        font-style: italic;
+        margin-left: 1%;
+    }
+    .type{
+        margin-top: 7%;
+        margin-bottom: 3%;
+    }
+    .src{
+        width: 100%;
+        font-size: 10px;
+    }
+}
